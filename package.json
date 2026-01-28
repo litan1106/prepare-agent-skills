@@ -1,0 +1,23 @@
+{
+    "name": "prepare-agent-skills",
+    "version": "1.0.0",
+    "description": "A cross-platform CLI tool to prepare .agent/skills folder from a GitHub repo based on keyword search.",
+    "type": "module",
+    "bin": {
+        "prepare-agent-skills": "./prepare-agent-skills.js"
+    },
+    "scripts": {
+        "test": "node test.js"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "keywords": [
+        "skills",
+        "github",
+        "search",
+        "copy"
+    ],
+    "author": "AI Slop",
+    "license": "MIT"
+}
